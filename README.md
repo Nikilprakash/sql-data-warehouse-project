@@ -5,6 +5,42 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ---
 
+🏗️ Data Architecture
+The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
+![Data Architecture](docs/DATA_ARCHITECTURE.png)
+Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+---
+
+### Project Overview
+
+This project involves:
+Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
+Data Modeling: Developing fact and dimension tables optimized for analytical queries.
+Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+SQL Development
+Data Architect
+Data Engineering
+ETL Pipeline Developer
+Data Modeling
+Data Analytics
+---
+
+### Important Links & Tools:
+
+Everything is for Free!
+Datasets: Access to the project dataset (csv files).
+SQL Server Express: Lightweight server for hosting your SQL database.
+SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
+Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+DrawIO: Design data architecture, models, flows, and diagrams.
+Notion: All-in-one tool for project management and organization.
+Notion Project Steps: Access to All Project Phases and Tasks.
+---
+
 ## Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -33,11 +69,37 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
+📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── ETL.jpg                         # file shows all different techniquies and methods of ETL
+│   ├── DATA\_ARCHITECTURE.png          # file shows the project's architecture
+│   ├── data\_catalog.md                # Catalog of datasets, including field descriptions and metadata
+│   ├── DATA\_FLOW.png                  # file for the data flow diagram
+│   ├── DATA\_MODEL.jpg                 # file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+```
+---
+
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ## About me
 
 Hi there! I’m Nikil Prakash, an aspiring data analyst passionate about working with data and sharing what I learn along the way to make data more understandable and useful.
-
-
