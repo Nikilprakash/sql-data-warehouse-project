@@ -57,6 +57,7 @@ Datasets: Access to the project dataset (csv files).
 -Notion: All-in-one tool for project management and organization.
 
 -Notion Project Steps: Access to All Project Phases and Tasks.
+
 ---
 
 ## Project Requirements
