@@ -121,4 +121,9 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ## About me
 
-Hi there! I’m Nikil Prakash, an aspiring data analyst passionate about working with data and sharing what I learn along the way to make data more understandable and useful.
+Data Analyst focused on data engineering and business intelligence.  
+This project demonstrates end-to-end data warehouse design using industry-standard Medallion Architecture — the same patterns used in enterprise analytics at scale.
+
+📊 Tableau Dashboard: [Sales & Customer Analytics](https://public.tableau.com/app/profile/nikil.prakash/viz/SalesCustomerDashboards_17791111984370/CustomerDashboard)  
+💼 LinkedIn: [linkedin.com/in/nikilprakash](https://linkedin.com/in/nikilprakash)  
+📧 Open to Data Analyst & Business Analyst roles in financial services.
