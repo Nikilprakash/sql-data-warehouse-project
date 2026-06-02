@@ -55,7 +55,7 @@ Datasets: Access to the project dataset (csv files).
 
 -Notion: All-in-one tool for project management and organization.
 
--Notion Project Steps: Access to All Project Phases and Tasks.
+-Notion Project Steps: [Access to All Project Phases and Tasks](https://app.notion.com/p/SQL-Data-Warehouse-Project-e7a22820e40083f9814481902a4b94a7?source=copy_link)
 
 ---
 
