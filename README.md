@@ -5,12 +5,20 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ---
 
+Built following the "Data Warehouse" project by Baraa Khatib Salkini, with my own additions listed below.
+
  # Data Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 ![Data Architecture](docs/DATA_ARCHITECTURE.png)
 - **Bronze Layer** : Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 - **Silver Layer** : This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 - **Gold Layer** : Houses business-ready data modeled into a star schema required for reporting and analytics.
+---
+
+## What I Added
+- Row-count reconciliation across all 6 tables: 116,292 (Bronze) to 116,283 (Silver), in `tests/reconciliation_checks.sql`
+- Traced the 9-row difference to 3 NULL customer IDs and 6 duplicate IDs; the Silver load keeps the latest record per customer
+- Verified Gold counts: 60,398 sales rows, 27,659 orders, 18,484 customers
 ---
 
 # Project Overview
@@ -25,23 +33,10 @@ Data Modeling: Developing fact and dimension tables optimized for analytical que
 
 Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-SQL Development
--Data Architect
-
--Data Engineering
-
--ETL Pipeline Developer
-
--Data Modeling
-
--Data Analytics
-
 ---
 
 # Important Links & Tools:
 
-Everything is for Free!
 
 Datasets: Access to the project dataset (csv files).
 
@@ -74,8 +69,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Documentation** : Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
-
-# BI: Analytics & Reporting (Data Analysis)
 
 ### Objective
 Develop SQL-based analytics to deliver detailed insights into:
